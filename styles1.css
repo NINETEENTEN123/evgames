@@ -16,3 +16,9 @@ body {
     padding: 20px;
     text-align: center;
 }
+
+
+::highlight {
+    background-color: #ff0000;
+    color: #000000;
+}
