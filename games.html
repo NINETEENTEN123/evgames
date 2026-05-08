@@ -20,7 +20,14 @@
 
         <h1 style="margin-left: 5px;">evGames</h1>
         <h2 style="text-align: center;">"Games"</h2>
-        <iframe src="" width="1024" height="875"></iframe>
+        <iframe src="" width="1024" height="575" id="gameFrame"></iframe>
+        <br>
+        <button onclick="document.getElementById('gameFrame').src = '';">Click to reset game frame</button>
+        <button onclick="document.getElementById('gameFrame').webkitRequestFullscreen();">Fullscreen</button>
+        <button onclick="window.find('')">Search for Games</button>
+
+        <br><br>
+
         
     </body>
 </html>
